@@ -23,7 +23,7 @@ KMP算法可以求解出一个模式串在文本串中出现的位置。扩展KM
 
 如果 `i > right` ，说明此时第 `i` 项还没有更新。此时就用最简单的暴力算法向前推进，并且更新 `left` 和 `right` 的值。
 
-```C++
+```c++
 left = i;
 while((i+extend[i])<s.length() && (extend[i])<t.length() && t[extend[i]] == s[i+extend[i]]){//思考题：为什么这里没有+1
 	extend[i]++;
@@ -57,7 +57,7 @@ extend[i] = min(right - i + 1, next[i - left]);
 
 如果 `i + extend[i] - 1 = right` ，说明本次更新已经到了 `s[left:right+1]` 所管辖的尽头，需要对其进行更新。此时就和暴力的时候一样就好了，拓展 `extend[i]` 的值并且更新 `left` 和 `right`。
 
-```C++
+```c++
 if(i + extend[i] - 1 > right){
     left = i;
     while((i+extend[i])<s.length() && (extend[i])<t.length() && t[extend[i]] == s[i+extend[i]]){//思考题：为什么这里没有+1

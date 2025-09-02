@@ -1,15 +1,15 @@
 ---
-title: 'C++语法知识点'
+title: 'c++语法知识点'
 published: 2023-01-10
 updated: 2025-09-02
-description: 'C++ grammar'
+description: 'c++ grammar'
 image: 'https://image.haoye.plus/title/snow_canada.jpg'
-tags: [C++]
+tags: [c++]
 category: 'Programming Language'
 draft: false 
 ---
 
-C++程序设计
+c++程序设计
 ==========
 
 by：小鸭呀
@@ -230,7 +230,7 @@ putchar(66)      根据ASCII码66是字符B，输出B
 
 要导入iomanip库
 
-```C++
+```c++
 #include<iomanip>
 cout<<setw(6)<<a;
 ```
@@ -274,7 +274,7 @@ cout<<a<<','<<b<<endl;
 
 返回了成功读取的变量的个数哦！！！
 
-```C++
+```c++
 while(scanf("%d",&x) != EOF){
 ​	语句
 }
