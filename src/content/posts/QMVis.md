@@ -113,7 +113,7 @@ $$
 i\hbar \frac{\partial ψ(x,t)}{\partial t} = \left [ -\frac{\hbar ^ 2}{2m} \frac{\partial^2}{\partial x^2} + V(x) \right ] ψ(x,t)
 $$
 
-In our cases, the mass and $\hbar$ is set to 1. Introducing the hamiltonian operator $\hat H$, the **1-dimensonal time-dependent Schrödinger equation (TDSE)** can be deduced
+In our cases, the mass and $\hbar$ is set to 1. Introducing the hamiltonian operator $\hat H$, the **1-dimensional time-dependent Schrödinger equation (TDSE)** can be deduced
 
 $$
 \frac{\partial}{\partial t} ψ(x, t) = -i\hat H ψ(x, t)
@@ -125,7 +125,7 @@ $$
 \hat H = -\frac{1}{2} \nabla ^2 + V(x)
 $$
 
-In this equation, the discrete Laplace operator can be given as convolution with **the finite-difference kernel**, $[1, -2, 1]$, results in a symmetric **tridiagonal Toeplitz matrix** with the finite-difference coefficients along the diagonals. Combining this matrix with the potential $V=[V_0, V_1, ..., V_N]$, a full **Hamiltonian operator** in matrix form can be obtained
+In this equation, the discrete Laplace operator can be given as convolution with **the finite-difference kernel**, $[1, -2, 1]$, results in a symmetric **Tridiagonal Toeplitz matrix** with the finite-difference coefficients along the diagonals. Combining this matrix with the potential $V=[V_0, V_1, ..., V_N]$, a full **Hamiltonian operator** in matrix form can be obtained
 
 $$
 \hat H = -\frac{1}{2\Delta x^2}
@@ -203,7 +203,7 @@ Simulation1D.simulate = simulate
 
 ### Wave Function Representation
 
-We use a localized Gaussian wave packet centered at $x_0$ with average initial momentum, $p_0$ , and Gaussian width, $\sigma_0$ . The wave function is given by
+We use a localized Gaussian wave packet centred at $x_0$ with average initial momentum, $p_0$ , and Gaussian width, $\sigma_0$ . The wave function is given by
 
 $$
 ψ(x, 0) = \left ( \frac{1}{2 \pi \sigma_0^2 } \right ) ^ \frac{1}{4} \mathrm {exp} \left ( -\frac{(x-x_0)^2}{4\sigma_0^2} + i p_0 x\right )

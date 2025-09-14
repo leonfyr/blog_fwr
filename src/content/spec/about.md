@@ -4,13 +4,13 @@
 
 所有的文章都已归类，可以在左边的Bar栏中选择
 
-然后主播懒得弄评论了如果有什么问题的话（或者单纯想聊天）可以发我邮箱 =D
+然后主播懒得弄评论了如果有什么问题的话（或者单纯想聊天）可以发我[邮箱](mailto:leonsz2009@qq.com) =D
 
 （之后肯定会弄得吧（目移
 
 # About
 
-Most of the articles are study and project notes, along with some posts about travel and hobbies. They are all categorized and can be found in the sidebar on the left. If you spot any mistakes or just want to chat, feel free to email me. =D
+Most of the articles are study and project notes, along with some posts about travel and hobbies. They are all categorized and can be found in the sidebar on the left. If you spot any mistakes or just want to chat, feel free to [email](mailto:leonsz2009@qq.com) me. =D
 
 ---
 
