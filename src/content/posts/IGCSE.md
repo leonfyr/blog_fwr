@@ -5,7 +5,7 @@ updated: 2025-09-02
 description: 'IG Math Note'
 image: 'https://image.haoye.plus/title/snow_canada.jpg'
 tags: [IGCSE, Maths, Note]
-category: 'IG / A-Level'
+category: 'IGCSE'
 draft: false 
 ---
 
