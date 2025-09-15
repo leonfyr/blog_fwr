@@ -5,8 +5,9 @@ updated: 2025-09-02
 description: 'Manacher Algorithm'
 image: 'https://image.haoye.plus/title/manacher.jpg'
 tags: [Algorithm, String]
-category: 'Algorithm'
+category: '[Series] 字符串算法'
 draft: false 
+lang: 'zh_CN'
 ---
 
 马拉车算法可以用线性级时间复杂度找出最长回文子串。

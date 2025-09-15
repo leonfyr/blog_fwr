@@ -7,6 +7,7 @@ image: ''
 tags: [Algorithm, Graph]
 category: 'Algorithm'
 draft: true 
+lang: 'zh_CN'
 ---
 # 一些定义
 

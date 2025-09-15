@@ -7,6 +7,7 @@ image: 'https://image.haoye.plus/title/exkmp.jpg'
 tags: []
 category: ''
 draft: true 
+lang: 'zh_CN'
 ---
 
 ...

@@ -5,8 +5,9 @@ updated: 2025-09-02
 description: 'Z function'
 image: 'https://image.haoye.plus/title/exkmp.jpg'
 tags: [Algorithm, String]
-category: 'Algorithm'
+category: '[Series] 字符串算法'
 draft: false 
+lang: 'zh_CN'
 ---
 
 # 引入

@@ -5,7 +5,7 @@ updated: 2025-09-02
 description: 'AC Algorithm'
 image: 'https://image.haoye.plus/title/ac.png'
 tags: [Algorithm, String]
-category: 'Algorithm'
+category: '[Series] 字符串算法'
 draft: false 
 lang: 'zh_CN'
 ---

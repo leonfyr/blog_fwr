@@ -1,16 +1,79 @@
 ---
-title: 'IG-Maths:Extended Revision Note'
+title: 'IG Maths(Extended) 复习笔记'
 published: 2024-04-16
-updated: 2025-09-02
-description: 'IG Math Note'
+updated: 2025-09-15
+description: 'IGCSE数学复习笔记'
 image: 'https://image.haoye.plus/title/snow_canada.jpg'
 tags: [IGCSE, Maths, Note]
-category: 'IGCSE'
+category: '[Series] IG笔记'
 draft: false 
+lang: 'zh_CN'
 ---
 
 > This note might not cover everything.
+> 
 > （有些很简单的我就没记，最好考前看一眼syllabus: [here](https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-upper-secondary/cambridge-igcse/subjects/)
+>
+> 有任何错误/补充欢迎评论指正ouo
+
+- [Number](#number)
+  - [数](#数)
+  - [集合](#集合)
+  - [质因数 (与最大公因数最小公倍数)](#质因数-与最大公因数最小公倍数)
+  - [指数运算\&科学表达式](#指数运算科学表达式)
+  - [分数](#分数)
+  - [比例](#比例)
+  - [利息](#利息)
+  - [FDP](#fdp)
+  - [Ratio](#ratio)
+  - [Compound Measures](#compound-measures)
+  - [时间 货币 转换](#时间-货币-转换)
+  - [近似 估计 边界](#近似-估计-边界)
+  - [计算器](#计算器)
+- [Algebra \& Graphs](#algebra--graphs)
+  - [基础](#基础)
+  - [指数根号](#指数根号)
+  - [展开括号，因式分解](#展开括号因式分解)
+  - [线性方程，不等式](#线性方程不等式)
+  - [二次方程](#二次方程)
+  - [重整式子](#重整式子)
+  - [联立方程](#联立方程)
+  - [分式](#分式)
+  - [列方程解方程](#列方程解方程)
+  - [函数](#函数)
+  - [数列](#数列)
+  - [坐标系](#坐标系)
+  - [线型图象](#线型图象)
+  - [二次图像](#二次图像)
+  - [更多图像和切线](#更多图像和切线)
+  - [解不等式](#解不等式)
+  - [生活中的图像](#生活中的图像)
+  - [微分](#微分)
+- [Geometry](#geometry)
+  - [基本](#基本)
+  - [多边形和平行线里的角](#多边形和平行线里的角)
+  - [bearings constructions \& scale drawings](#bearings-constructions--scale-drawings)
+  - [圆](#圆)
+  - [面积和周长](#面积和周长)
+  - [圆和扇形和弧](#圆和扇形和弧)
+  - [体积和表面积](#体积和表面积)
+  - [全等和相似(congruence \& similarity)](#全等和相似congruence--similarity)
+  - [直角三角形](#直角三角形)
+  - [sine, cosine rule \& 三角形面积](#sine-cosine-rule--三角形面积)
+  - [三维三角函数](#三维三角函数)
+  - [三角函数图像和方程](#三角函数图像和方程)
+  - [向量](#向量)
+  - [变化](#变化)
+- [Probability \& Statistics](#probability--statistics)
+  - [基础](#基础-1)
+  - [概率图像](#概率图像)
+  - [conditional probability](#conditional-probability)
+  - [平均和极差](#平均和极差)
+  - [统计图像](#统计图像)
+  - [Histogram(直方图)](#histogram直方图)
+  - [cumulative frequency \& box plots](#cumulative-frequency--box-plots)
+  - [scatter graphs \& correlation](#scatter-graphs--correlation)
+- [Some own experience](#some-own-experience)
 
 # Number
 ## 数

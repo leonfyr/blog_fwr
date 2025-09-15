@@ -7,6 +7,7 @@ image: 'https://image.haoye.plus/QMVideo/2D.png'
 tags: []
 category: ''
 draft: true 
+lang: 'zh_CN'
 ---
 
 ...

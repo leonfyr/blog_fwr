@@ -7,6 +7,7 @@ image: 'https://image.haoye.plus/title/exkmp.jpg'
 tags: [Physics, Weather, WRF]
 category: 'Physics'
 draft: true 
+lang: 'zh_CN'
 ---
 
 ...

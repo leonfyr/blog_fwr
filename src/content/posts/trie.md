@@ -5,8 +5,9 @@ updated: 2025-09-02
 description: 'Trie'
 image: 'https://image.haoye.plus/title/trie.jpg'
 tags: [Algorithm, String]
-category: 'Algorithm'
+category: '[Series] 字符串算法'
 draft: false 
+lang: 'zh_CN'
 ---
 
 AC自动机的前置知识（=^^）/

@@ -7,6 +7,7 @@ image: 'https://image.haoye.plus/title/snow_canada.jpg'
 tags: [c++]
 category: 'Programming Language'
 draft: false 
+lang: 'zh_CN'
 ---
 
 c++程序设计

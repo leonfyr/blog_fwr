@@ -5,8 +5,9 @@ updated: 2025-09-15
 description: 'A-Level Physics Chapter 1'
 image: ''
 tags: [Physics, A-Level, Note]
-category: 'A-Level'
+category: '[Series] AL Physics'
 draft: false 
+lang: 'en'
 ---
 
 # 1 Physical quantities and units
