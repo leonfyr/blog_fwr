@@ -1,4 +1,6 @@
-# 关鱼
+# About / 关于
+
+[English][English]
 
 此博客主要内容为日常学习笔记和项目日志，偶尔更一些旅游生活和兴趣爱好的内容
 
@@ -8,7 +10,7 @@
 
 （之后肯定会弄得吧（目移
 
-# About
+# About 
 
 Most of the articles are study and project notes, along with some posts about travel and hobbies. They are all categorized and can be found in the sidebar on the left. If you spot any mistakes or just want to chat, feel free to [email](mailto:leonsz2009@qq.com) me. =D
 
