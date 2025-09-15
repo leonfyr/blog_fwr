@@ -105,7 +105,7 @@ void find(string s){
 
 
 
-# 代码实践 
+# 代码实践
 
 洛谷：[P3808](https://www.luogu.com.cn/problem/P3808)
 
