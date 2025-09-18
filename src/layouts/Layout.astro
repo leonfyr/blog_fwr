@@ -286,6 +286,11 @@ function loadHue() {
 	setHue(getHue())
 }
 
+function initCommentComponent() {
+  const event = new Event("loadComment");
+  document.dispatchEvent(event);
+}
+
 function initCustomScrollbar() {
 	const bodyElement = document.querySelector('body');
 	if (!bodyElement) return;
@@ -369,6 +374,7 @@ function init() {
 	loadHue();
 	initCustomScrollbar();
 	showBanner();
+ 	initCommentComponent(); // initialize the comment component
 }
 
 /* Load settings when entering the site */
@@ -404,7 +410,10 @@ const setup = () => {
 			navbar.classList.add('navbar-hidden')
 		}
 	})
-	window.swup.hooks.on('content:replace', initCustomScrollbar)
+	window.swup.hooks.on('content:replace', () => {
+		initCustomScrollbar();
+		initCommentComponent();
+	});
 	window.swup.hooks.on('visit:start', (visit: {to: {url: string}}) => {
 		// change banner height immediately when a link is clicked
 		const bodyElement = document.querySelector('body')

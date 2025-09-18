@@ -10,6 +10,10 @@ draft: false
 lang: 'en'
 ---
 
+<input type="checkbox" class="hooray">  Test
+
+<input type="checkbox" class="hooray">  Test
+
 - [Simulation of Wave Functions in Quantum Mechanics](#simulation-of-wave-functions-in-quantum-mechanics)
   - [Introduction](#introduction)
   - [Simulation on 1D](#simulation-on-1d)

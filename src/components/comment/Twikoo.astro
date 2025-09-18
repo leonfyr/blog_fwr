@@ -1,5 +1,8 @@
 ---
 import { commentConfig } from '@/config'
+import WidgetLayout from "@components/widget/WidgetLayout.astro";
+import I18nKey from "../../i18n/i18nKey";
+import { i18n } from "../../i18n/translation";
 
 interface Props {
   path: string
@@ -12,8 +15,22 @@ const config = {
 }
 ---
 
+<WidgetLayout name={i18n(I18nKey.comments)} id="comments">
 <div id="tcomment"></div>
-<script is:inline src="https://cdn.staticfile.org/twikoo/1.6.44/twikoo.all.min.js"></script>
-<script is:inline define:vars={{ config }}>
-  twikoo.init(config)
+</WidgetLayout>
+
+<script define:vars={{ config }}>
+  function loadTwikoo() {
+    const script = document.createElement("script");
+    script.src =
+      "https://cdn.jsdelivr.net/npm/twikoo@1.6.44/dist/twikoo.all.min.js";
+    script.defer = true;
+    script.onload = () => {
+      twikoo.init({
+        ...config,
+      }); // 传入配置信息
+    };
+    document.body.appendChild(script);
+  }
+  document.addEventListener("loadComment", loadTwikoo, { once: true }); // 监听加载评论事件，但是我们只能监听一次，从而避免多次触发。
 </script>
