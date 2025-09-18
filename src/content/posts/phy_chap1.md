@@ -10,8 +10,6 @@ draft: false
 lang: 'en'
 ---
 
-<input type="checkbox" class="hooray"> Test
-
 - [1 Physical quantities and units](#1-physical-quantities-and-units)
   - [1.1 Physical quantities](#11-physical-quantities)
   - [1.2 SI units](#12-si-units)

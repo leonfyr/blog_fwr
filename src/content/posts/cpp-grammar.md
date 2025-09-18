@@ -775,3 +775,4 @@ class 好耶 : public/*访问修饰符*/ 坏耶 ,其他父类...{
 };
 ```
 
+<input type="checkbox" class="hooray"> 
