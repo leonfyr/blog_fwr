@@ -42,7 +42,7 @@ lang: 'zh_CN'
 
 一道搜索题。用双向BFS优化了下速度，写了个简单的哈希表来标记已访问的图，给到顶级
 
-```c++ title="T6.cpp" collapse={1-8, 19-116, 125-141, 149-165, 170-181}
+```c++ title="T6.cpp" collapse={1-8, 19-116, 122-169, 171-181}
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -51,7 +51,7 @@ struct grid{
     bool side;
 };
 
-int prime[9] = {2,3,5,7,11,13,17,19,23};
+int prime[9] = {2,3,5,7,11,13,17,19,23}; // Hash
 int hash_grid(grid x){
     unsigned long long res = 0;
     for(int i=0;i<3;i++){
@@ -163,10 +163,10 @@ int main(){
     bool STOP = false;
     int count = 0;
 
-    while(!STOP){
-        node s_top = ss.front();
+    while(!STOP){ // BFS
+        node s_top = ss.front(); // From the start
         ss.pop();
-        for(int opt=0;opt<4;opt++){ // From the start
+        for(int opt=0;opt<4;opt++){
             node cc = spin(s_top, opt);
             cc.o = s_top.o;
             cc.o.push_back(opt);
@@ -187,10 +187,11 @@ int main(){
         }
         
         if(STOP)break;
-        node e_top = ee.front();
+
+        node e_top = ee.front(); // From the end
         ee.pop();
 
-        for(int opt=0;opt<4;opt++){ // From the end
+        for(int opt=0;opt<4;opt++){
             node cc = spinrev(e_top, opt); // Spin in reverse direction
             cc.o = e_top.o;
             cc.o.push_back(opt);
