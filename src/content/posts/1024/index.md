@@ -18,7 +18,7 @@ lang: 'zh_CN'
 
 此次比赛从周五下午的八点开始，持续两天。可以说时间非常充足了
 
-比赛题目pdf可 [点此处下载](/src/static/1024_Problem_Statements.pdf)
+比赛题目pdf可 [点击此处下载](https://image.haoye.plus/file/1024_Problem_Statements.pdf)
 
 # 题目思路
 
