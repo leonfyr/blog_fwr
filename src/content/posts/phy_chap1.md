@@ -22,7 +22,7 @@ lang: 'en'
 
 # 1 Physical quantities and units
 
-Updated on 2025-09-15
+Updated on 2025-10-31
 
 ## 1.1 Physical quantities
 
@@ -108,7 +108,6 @@ What is the value of n?
 Digits considered *significant*: non-zero digits, zeros who:
 
 - appearing anywhere between two non-zero digits
-
 - trailing zeros in a number containing a decimal point
 
 Digits considered *not significant*: leading zeros, trailing zeros in a number without a decimal point
@@ -119,32 +118,26 @@ Digits considered *not significant*: leading zeros, trailing zeros in a number w
 **Random errors**:
 
 - values are scattered about the true value
-
-- can be reduced by average
-
+- can be reduced by average / take readings in different ways (e.g. different points along a wire)
 - Examples: Reading scales from different angles
 
 **Systematic errors**:
 
 - the average / peak is not the true value
-
 - the reading is larger or smaller than (or varying from) the true reading by a constant amount 
-
 - can be eliminated by careful calibration
-
 - Examples: Zero Error, Parallax Error
 
 **Precision** := the range of the values / how close the result is to each other / the size of the smallest division
 
 - affected by random error
-
 - improve: repeat and average
 
 **Accuracy** := how close the result is to the true value
 
 - affected by systematic error
-
 - improve: technique, accurate instrument
+- Measured by average
 
 ---
 
@@ -227,9 +220,7 @@ I've taken these notes on class but they are neither in the syllabus nor on past
 Three main types of uncertainty:
 
 - Random Uncertainties
-
 - Systematic Errors
-
 - Reading Uncertainties
 
 **The Limit of Reading** of a measurement is equal to the smallest graduation of the scale of an instrument. 
