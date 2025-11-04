@@ -95,6 +95,11 @@ export const profileConfig: ProfileConfig = {
 			icon: "material-symbols:mail-rounded",
 			url: "mailto:leonsz2009@qq.com",
 		},
+		{
+			name: "RSS",
+			icon: "material-symbols:rss-feed",
+			url: "https://blog.haoye.plus/rss.xml",
+		},
 	],
 };
 
