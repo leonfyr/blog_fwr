@@ -26,6 +26,20 @@ Updated on 2025-10-31
 
 ## 1.1 Physical quantities
 
+```text title="Syllabus 9702" collapse={1-999} showLineNumbers=false
+1 understand that deformation is caused by tensile or compressive forces (forces and deformations will be assumed to be in one dimension only)
+
+2 understand and use the terms load, extension, compression and limit of proportionality
+
+3 recall and use Hooke’s law
+
+4 recall and use the formula for the spring constant k = F / x
+
+5 define and use the terms stress, strain and the Young modulus
+
+6 describe an experiment to determine the Young modulus of a metal in the form of a wire
+```
+
 **Physical quantity** := a quantity that can be measured and *consists of a numerical magnitude and unit*. 
 
 | Quantity                              | Size                       |
