@@ -4,7 +4,7 @@ published: 2025-09-15
 updated: 2025-09-15
 description: ''
 image: ''
-tags: A-Level, Note]
+tags: [A-Level, Note]
 category: '[Series] AL Physics'
 draft: true 
 lang: 'en'

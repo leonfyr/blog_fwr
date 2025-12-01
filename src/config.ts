@@ -22,8 +22,8 @@ export const siteConfig: SiteConfig = {
 		position: "top", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: true, // Display the credit text of the banner image
-			text: "藍瀬 まなみ", // Credit text to be displayed
-			url: "https://twitter.com/AiseManami", // (Optional) URL link to the original artwork or artist's page
+			text: "晴いちばん", // Credit text to be displayed
+			url: "https://www.bilibili.com/video/BV1MkAtefEzs/", // (Optional) URL link to the original artwork or artist's page
 		},
 	},
 	toc: {
