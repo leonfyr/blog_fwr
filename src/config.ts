@@ -17,7 +17,7 @@ export const siteConfig: SiteConfig = {
 		fixed: false, // Hide the theme color picker for visitors
 	},
 	banner: {
-		enable: false,
+		enable: true,
 		src: "assets/images/banner2.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "bottom", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
@@ -64,7 +64,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatar: "assets/images/avatar2.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "ctww",
 	bio: "醉倚妙高台上月，玉萧吹彻洞龙眠",
 	links: [
